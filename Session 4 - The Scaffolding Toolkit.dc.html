@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Session 4 — The Scaffolding Toolkit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0E2841; font-family: 'Figtree', 'Segoe UI', sans-serif; }
+  a { color: #1B3E93; } a:hover { color: #BE1E2D; }
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+<section data-label="Title" data-speaker-notes="Session 4 of 7 — ESL and SPED partners rejoin us. Teachers arrive with a participation count and student work. Today those become a scaffold plan." style="background: url('assets/template-image1.jpg') center / cover; color: #FFFFFF; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 64px 160px 56px 160px; box-sizing: border-box;">
+  <div style="font-size: 26px; font-weight: 700; letter-spacing: 4px; color: #FFC222;">K–2 ELA PROFESSIONAL LEARNING SERIES &nbsp;•&nbsp; SESSION 4 &nbsp;•&nbsp; THU, SEP 10</div>
+  <h1 style="margin: 22px 0 0 0; font-size: 68px; font-weight: 800; line-height: 1.08;">The Scaffolding Toolkit</h1>
+  <div style="margin-top: 14px; font-size: 34px; font-weight: 600; color: #CFE3FF;">Temporary, Student-Specific Supports for Grade-Level Work</div>
+  <div style="flex: 1;"></div>
+  <div style="display: flex; gap: 40px; align-items: baseline; font-size: 26px; color: #CFE3FF;">
+    <span style="font-weight: 700; color: #FFFFFF;">LaShaudra Cox &nbsp;•&nbsp; Ross Elementary</span>
+    <span>With our ESL &amp; SPED partners at the table</span>
+  </div>
+</section>
+
+<section data-label="Welcome Back" data-speaker-notes="Post the counts. Celebrate movement from the 11/18 baseline. Then pivot: the names not yet in the count are exactly who today's toolkit is for." style="background: url('assets/template-image2.jpg') center / cover; display: flex; flex-direction: column; padding: 90px 170px 150px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">OPENING • YOUR SESSION 3 COMMITMENTS</div>
+  <h2 style="margin: 10px 0 40px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Welcome Back: What Your Counts Showed</h2>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px;">
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 36px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Post</div>
+      <div style="margin-top: 10px; font-size: 27px; line-height: 1.4; color: #0E2841;">Your count — how many of how many, in which activity.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 36px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Compare</div>
+      <div style="margin-top: 10px; font-size: 27px; line-height: 1.4; color: #0E2841;">Against our August baseline — 11/18 and 14/18. Where did the routines move us?</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 36px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Name</div>
+      <div style="margin-top: 10px; font-size: 27px; line-height: 1.4; color: #0E2841;">The students not yet in the count. Today's toolkit is for them.</div>
+    </div>
+  </div>
+  <div style="margin-top: 34px; font-size: 28px; line-height: 1.45; color: #46536B;">Routines opened the room. Annotations opened the lesson. Scaffolds open the task — for the specific students still outside it.</div>
+</section>
+
+<section data-label="Objectives" data-speaker-notes="The key idea: a scaffold is temporary and student-specific, chosen from evidence — not a permanent fixture or a lowered bar." style="background: url('assets/template-image3.jpg') center / cover; display: flex; flex-direction: column; padding: 90px 170px 150px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">SESSION 4</div>
+  <h2 style="margin: 10px 0 40px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Today's Learning Objectives</h2>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 26px; flex: 1;">
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 38px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Define</div>
+      <div style="margin-top: 10px; font-size: 28px; line-height: 1.4; color: #0E2841;">what makes a support a scaffold: temporary, student-specific, and aimed at the grade-level task.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 38px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Tour</div>
+      <div style="margin-top: 10px; font-size: 28px; line-height: 1.4; color: #0E2841;">the toolkit: anchor charts, Turn &amp; Talk structures, sentence starters, modeled writing.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 34px 38px;">
+      <div style="font-size: 30px; font-weight: 800; color: #1B3E93;">Match</div>
+      <div style="margin-top: 10px; font-size: 28px; line-height: 1.4; color: #0E2841;">scaffolds to evidence — your participation count and student work name the need.</div>
+    </div>
+    <div style="background: #FFF6DE; border-radius: 14px; padding: 34px 38px;">
+      <div style="font-size: 30px; font-weight: 800; color: #BE1E2D;">Commit</div>
+      <div style="margin-top: 10px; font-size: 28px; line-height: 1.4; color: #0E2841;">to one scaffold planned from student-work data — taught and reflected on before Session 5.</div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Agenda" data-speaker-notes="Twenty-five minutes of working time again — the plan comes out of their own evidence, co-built with ESL/SPED partners." style="background: url('assets/template-image2.jpg') center / cover; display: flex; flex-direction: column; padding: 90px 170px 150px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">60 MINUTES</div>
+  <h2 style="margin: 10px 0 38px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Agenda</h2>
+  <div style="display: grid; grid-template-columns: 170px 460px 1fr; row-gap: 20px; column-gap: 30px; align-items: center;">
+    <div style="font-size: 40px; font-weight: 800; color: #1B3E93;">10 min</div>
+    <div style="font-size: 30px; font-weight: 700; color: #0E2841;">Counts debrief</div>
+    <div style="font-size: 27px; color: #46536B;">Post counts, compare to baseline, name who's not yet reached</div>
+    <div style="font-size: 40px; font-weight: 800; color: #1B3E93;">10 min</div>
+    <div style="font-size: 30px; font-weight: 700; color: #0E2841;">What a scaffold is</div>
+    <div style="font-size: 27px; color: #46536B;">Temporary, student-specific, grade-level task intact</div>
+    <div style="font-size: 40px; font-weight: 800; color: #1B3E93;">10 min</div>
+    <div style="font-size: 30px; font-weight: 700; color: #0E2841;">The toolkit</div>
+    <div style="font-size: 27px; color: #46536B;">Four tools, and the student evidence each one answers</div>
+    <div style="font-size: 40px; font-weight: 800; color: #1B3E93;">25 min</div>
+    <div style="font-size: 30px; font-weight: 700; color: #0E2841;">Build your scaffold plan</div>
+    <div style="font-size: 27px; color: #46536B;">Match one scaffold to your evidence, with ESL &amp; SPED partners</div>
+    <div style="font-size: 40px; font-weight: 800; color: #1B3E93;">5 min</div>
+    <div style="font-size: 30px; font-weight: 700; color: #0E2841;">Commit &amp; close</div>
+    <div style="font-size: 27px; color: #46536B;">Exit ticket + preview of Session 5</div>
+  </div>
+</section>
+
+<section data-label="Part 1" data-speaker-notes="First, the definition — because 'scaffold' gets used for everything from wall décor to easier worksheets." style="background: url('assets/template-image4.jpg') center / cover; color: #FFFFFF; display: flex; flex-direction: column; justify-content: center; padding: 0 150px 0 150px; box-sizing: border-box;">
+  <div style="font-size: 30px; font-weight: 800; letter-spacing: 6px; color: #FFC222;">PART 1</div>
+  <h2 style="margin: 18px 0 0 0; font-size: 92px; font-weight: 800; line-height: 1.05;">What Makes a Support a Scaffold</h2>
+</section>
+
+<section data-label="Scaffold Definition" data-speaker-notes="Three tests. If it stays up all year for everyone, it's furniture. If it changes the task, it's a detour. A scaffold holds the student up TO the grade-level work, then comes down." style="background: url('assets/template-image2.jpg') center / cover; display: flex; flex-direction: column; padding: 84px 150px 140px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">THREE TESTS • PARTICIPANT GUIDE P. 2</div>
+  <h2 style="margin: 10px 0 36px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Temporary. Specific. Grade-Level.</h2>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 26px;">
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 32px 34px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Temporary</div>
+      <div style="margin-top: 12px; font-size: 26px; line-height: 1.45; color: #0E2841;">It has a planned exit. When the student no longer needs it, it comes down — that's the goal, not the failure.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 32px 34px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Student-specific</div>
+      <div style="margin-top: 12px; font-size: 26px; line-height: 1.45; color: #0E2841;">Chosen for named students from evidence — a count, a work sample — not sprayed across the whole class.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 32px 34px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Grade-level intact</div>
+      <div style="margin-top: 12px; font-size: 26px; line-height: 1.45; color: #0E2841;">The task stays the same. The scaffold raises the student to it — it never lowers the task to the student.</div>
+    </div>
+  </div>
+  <div style="margin-top: 32px; background: #0E2841; border-radius: 14px; padding: 26px 42px; font-size: 28px; line-height: 1.4; color: #FFFFFF;">Missing Tier I access points show up later as Tier II referrals. <span style="color: #FFC222; font-weight: 700;">Scaffolds planned now are interventions we won't need later.</span></div>
+</section>
+
+<section data-label="Part 2" data-speaker-notes="The four tools — each paired with the evidence that calls for it." style="background: url('assets/template-image4.jpg') center / cover; color: #FFFFFF; display: flex; flex-direction: column; justify-content: center; padding: 0 150px 0 150px; box-sizing: border-box;">
+  <div style="font-size: 30px; font-weight: 800; letter-spacing: 6px; color: #FFC222;">PART 2</div>
+  <h2 style="margin: 18px 0 0 0; font-size: 92px; font-weight: 800; line-height: 1.05;">The Toolkit</h2>
+</section>
+
+<section data-label="Four Tools" data-speaker-notes="Read each pairing: the evidence names the need, the tool answers it. This is the matching logic they'll use in working time — start from the student work, not from a favorite strategy." style="background: url('assets/template-image3.jpg') center / cover; display: flex; flex-direction: column; padding: 84px 150px 140px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">FOUR TOOLS, MATCHED TO EVIDENCE • PARTICIPANT GUIDE P. 2</div>
+  <h2 style="margin: 10px 0 36px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Each Tool Answers a Need You Can See</h2>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 26px; flex: 1; align-content: start;">
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 30px 36px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Anchor charts</div>
+      <div style="margin-top: 10px; font-size: 26px; line-height: 1.4; color: #0E2841;"><em>When work shows:</em> confusing similar sounds or spellings — /ee/ vs /ae/, b vs d. Build it with students; point to it in the moment.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 30px 36px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Turn &amp; Talk structures</div>
+      <div style="margin-top: 10px; font-size: 26px; line-height: 1.4; color: #0E2841;"><em>When counts show:</em> the same few voices every time. Assigned partners + "say it with your partner first" gets every student rehearsing.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 30px 36px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Sentence starters</div>
+      <div style="margin-top: 10px; font-size: 26px; line-height: 1.4; color: #0E2841;"><em>When work shows:</em> one-word answers or incomplete sentences — especially for ELs. Posted, practiced, and faded over time.</div>
+    </div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 30px 36px;">
+      <div style="font-size: 29px; font-weight: 800; color: #1B3E93;">Modeled writing</div>
+      <div style="margin-top: 10px; font-size: 26px; line-height: 1.4; color: #0E2841;"><em>When work shows:</em> students stall at the blank page. Think aloud while writing; leave the model up as students try their own.</div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Part 3" data-speaker-notes="Working time — evidence on the table first, then the tool." style="background: url('assets/template-image4.jpg') center / cover; color: #FFFFFF; display: flex; flex-direction: column; justify-content: center; padding: 0 150px 0 150px; box-sizing: border-box;">
+  <div style="font-size: 30px; font-weight: 800; letter-spacing: 6px; color: #FFC222;">PART 3</div>
+  <h2 style="margin: 18px 0 0 0; font-size: 92px; font-weight: 800; line-height: 1.05;">Build Your Scaffold Plan</h2>
+</section>
+
+<section data-label="Working Time" data-speaker-notes="25 minutes. Circulate with the matching question: what does the evidence say the student needs — and which tool answers exactly that? ESL partners check language demands; SPED partners check IEP alignment. K teams are in Unit 1 (/m/, /a/); grade 1 in Unit 1 At School / Where I Live; grade 2 in Genre Study 1–2." style="background: url('assets/template-image2.jpg') center / cover; display: flex; flex-direction: column; padding: 84px 150px 140px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">WORKING TIME • 25 MINUTES • PARTICIPANT GUIDE P. 3</div>
+  <h2 style="margin: 10px 0 36px 0; font-size: 58px; font-weight: 800; color: #0E2841;">From Evidence to Scaffold, with Your Partners</h2>
+  <div style="display: grid; grid-template-columns: 110px 1fr; row-gap: 22px; column-gap: 28px; align-items: center;">
+    <div style="width: 76px; height: 76px; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 36px; font-weight: 800; display: flex; align-items: center; justify-content: center;">1</div>
+    <div style="font-size: 29px; line-height: 1.4; color: #0E2841;"><strong>Lay out the evidence</strong> — your count, the names not in it, and the student work you brought.</div>
+    <div style="width: 76px; height: 76px; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 36px; font-weight: 800; display: flex; align-items: center; justify-content: center;">2</div>
+    <div style="font-size: 29px; line-height: 1.4; color: #0E2841;"><strong>Name the need</strong> precisely — tricky words? digraphs? complete sentences? staying in the writing?</div>
+    <div style="width: 76px; height: 76px; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 36px; font-weight: 800; display: flex; align-items: center; justify-content: center;">3</div>
+    <div style="font-size: 29px; line-height: 1.4; color: #0E2841;"><strong>Match one tool</strong> to that need — and plan it into a specific lesson from your curriculum map.</div>
+    <div style="width: 76px; height: 76px; border-radius: 50%; background: #FFC222; color: #0E2841; font-size: 36px; font-weight: 800; display: flex; align-items: center; justify-content: center;">4</div>
+    <div style="font-size: 29px; line-height: 1.4; color: #0E2841;"><strong>Plan the exit</strong> — what student evidence will tell you the scaffold can come down?</div>
+  </div>
+</section>
+
+<section data-label="Exit Ticket" data-speaker-notes="Deliverable: one scaffold planned from student-work data, taught and reflected on before Session 5 on September 24 — where we analyze the student work it produces." style="background: url('assets/template-image2.jpg') center / cover; display: flex; flex-direction: column; padding: 90px 170px 150px 130px; box-sizing: border-box;">
+  <div style="font-size: 25px; font-weight: 700; letter-spacing: 3px; color: #BE1E2D;">EXIT TICKET • PARTICIPANT GUIDE P. 4</div>
+  <h2 style="margin: 10px 0 44px 0; font-size: 58px; font-weight: 800; color: #0E2841;">Commit to Action</h2>
+  <div style="display: flex; flex-direction: column; gap: 34px;">
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 36px 42px; font-size: 32px; line-height: 1.45; color: #0E2841;">The scaffold I planned is … for … (students), because their work shows …</div>
+    <div style="background: #F2F5FB; border-radius: 14px; padding: 36px 42px; font-size: 32px; line-height: 1.45; color: #0E2841;">I will know it can come down when I see …</div>
+    <div style="font-size: 27px; color: #46536B;">Teach the scaffolded lesson before Session 5 (Sep 24) — and bring the full class set of student work it produces.</div>
+  </div>
+</section>
+
+<section data-label="Closing" data-speaker-notes="Close: thank the ESL and SPED partners. Next session, September 24 — analyzing the student work your scaffolds produce." style="background: url('assets/template-image1.jpg') center / cover; color: #FFFFFF; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 74px 200px 56px 200px; box-sizing: border-box;">
+  <h2 style="margin: 0; font-size: 60px; font-weight: 800; line-height: 1.15;">A scaffold is a promise:</h2>
+  <div style="margin-top: 12px; font-size: 40px; font-weight: 600; color: #FFC222;">the grade-level work is yours — and we'll get you to it.</div>
+  <div style="flex: 1;"></div>
+  <div style="display: flex; flex-direction: column; gap: 8px; font-size: 26px; color: #CFE3FF;">
+    <div><span style="font-weight: 700; color: #FFFFFF;">Next session — Sep 24:</span> Analyzing Student Work Through the Lens of Access</div>
+    <div>Bring: the class set of student work from your scaffolded lesson</div>
+  </div>
+</section>
+
+</x-import>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Participation Tally Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; font-family: 'Figtree', 'Segoe UI', sans-serif; color: #0E2841; }
+  a { color: #1B3E93; } a:hover { color: #BE1E2D; }
+</style>
+</helmet>
+<x-import component-from-global-scope="doc-page" from="./doc-page.js" size="letter" orientation="portrait" margin="0.6in" hint-size="100%,1100px">
+  <div style="font-family: 'Figtree', 'Segoe UI', sans-serif;">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 16pt; border-bottom: 3pt solid #1B3E93; padding-bottom: 8pt;">
+    <div>
+      <div style="font-size: 9pt; font-weight: 700; letter-spacing: 1.5pt; color: #BE1E2D;">K–2 ELA PROFESSIONAL LEARNING • SESSION 3 ONWARD • PARTICIPATION TALLY</div>
+      <h1 style="margin: 3pt 0 0 0; font-size: 20pt; font-weight: 800; color: #0E2841;">Participation Tally Sheet</h1>
+      <div style="margin-top: 2pt; font-size: 10.5pt; color: #46536B;">One week on one page — a sticky-note-simple way to count who is listening, speaking, reading, writing. Counts, not vibes.</div>
+    </div>
+    <img src="uploads/Ross Elem Emb (2).png" alt="Ross Elementary Roadrunners logo" style="width: 64pt; height: 58pt; object-fit: contain; flex-shrink: 0;">
+  </div>
+  <div style="display: flex; gap: 18pt; margin-top: 6pt; font-size: 10pt; color: #46536B;">
+    <div><strong style="color: #0E2841;">Teacher:</strong> ____________________</div>
+    <div><strong style="color: #0E2841;">Grade:</strong> ______</div>
+    <div><strong style="color: #0E2841;">Week of:</strong> ______________</div>
+    <div><strong style="color: #0E2841;">Class size:</strong> ______</div>
+  </div>
+
+  <table style="width: 100%; border-collapse: collapse; font-size: 10pt; margin-top: 10pt;">
+    <thead>
+      <tr>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 12%;">Day</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 26%;">Activity counted (warm-up, chaining, dictation, partner reading…)</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 20%;">Visible structure (signals / boards / choral)</th>
+        <th style="text-align: center; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 12%;">Count</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt;">Not yet in the count (names)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; font-weight: 700; color: #1B3E93;">Mon</td><td style="border: 0.75pt solid #B9C4DB; height: 34pt;"></td><td style="border: 0.75pt solid #B9C4DB;"></td><td style="border: 0.75pt solid #B9C4DB; text-align: center; color: #8FA1C4;">___ / ___</td><td style="border: 0.75pt solid #B9C4DB;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; font-weight: 700; color: #1B3E93;">Tue</td><td style="border: 0.75pt solid #B9C4DB; height: 34pt;"></td><td style="border: 0.75pt solid #B9C4DB;"></td><td style="border: 0.75pt solid #B9C4DB; text-align: center; color: #8FA1C4;">___ / ___</td><td style="border: 0.75pt solid #B9C4DB;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; font-weight: 700; color: #1B3E93;">Wed</td><td style="border: 0.75pt solid #B9C4DB; height: 34pt;"></td><td style="border: 0.75pt solid #B9C4DB;"></td><td style="border: 0.75pt solid #B9C4DB; text-align: center; color: #8FA1C4;">___ / ___</td><td style="border: 0.75pt solid #B9C4DB;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; font-weight: 700; color: #1B3E93;">Thu</td><td style="border: 0.75pt solid #B9C4DB; height: 34pt;"></td><td style="border: 0.75pt solid #B9C4DB;"></td><td style="border: 0.75pt solid #B9C4DB; text-align: center; color: #8FA1C4;">___ / ___</td><td style="border: 0.75pt solid #B9C4DB;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; font-weight: 700; color: #1B3E93;">Fri</td><td style="border: 0.75pt solid #B9C4DB; height: 34pt;"></td><td style="border: 0.75pt solid #B9C4DB;"></td><td style="border: 0.75pt solid #B9C4DB; text-align: center; color: #8FA1C4;">___ / ___</td><td style="border: 0.75pt solid #B9C4DB;"></td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="margin: 12pt 0 4pt 0; font-size: 13pt; font-weight: 800; color: #1B3E93;">End of Week — Read the Pattern</h2>
+  <table style="width: 100%; border-collapse: collapse; font-size: 10pt;">
+    <tbody>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; width: 40%; background: #F2F5FB;"><strong>Names appearing 2+ times</strong> in the "not yet" column</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; height: 32pt;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; background: #F2F5FB;"><strong>What those students have in common</strong> — activity type, time of day, language demand, seat?</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; height: 32pt;"></td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; background: #F2F5FB;"><strong>Next move</strong> — the routine, access point, or scaffold aimed at them next week</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 8pt; height: 32pt;"></td></tr>
+    </tbody>
+  </table>
+
+  <div style="display: flex; gap: 12pt; margin-top: 10pt;">
+    <div style="flex: 1; background: #F2F5FB; border-radius: 6pt; padding: 8pt 11pt; break-inside: avoid; font-size: 9.5pt; line-height: 1.5;">
+      <strong style="color: #1B3E93;">Keep it light:</strong> one activity per day, ten seconds of counting. The visible structure does the work — boards up, signals shown, every voice on cue. If counting feels hard, the structure isn't visible enough yet.
+    </div>
+    <div style="flex: 1; background: #FFF6DE; border-radius: 6pt; padding: 8pt 11pt; break-inside: avoid; font-size: 9.5pt; line-height: 1.5;">
+      <strong style="color: #BE1E2D;">Where it goes:</strong> bring the week's sheet to ELA planning and the session debriefs — these counts are the participation line in the team data summary and the movement we celebrate in Session 7.
+    </div>
+  </div>
+
+  </div>
+</x-import>
+</x-dc>
+</body>
+</html>

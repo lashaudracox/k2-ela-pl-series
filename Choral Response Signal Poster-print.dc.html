@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Choral Response Signal Poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; font-family: 'Figtree', 'Segoe UI', sans-serif; color: #0E2841; }
+  a { color: #1B3E93; } a:hover { color: #BE1E2D; }
+</style>
+</helmet>
+<x-import component-from-global-scope="doc-page" from="./doc-page.js" size="letter" orientation="portrait" margin="0.5in" hint-size="100%,1400px">
+  <div style="font-family: 'Figtree', 'Segoe UI', sans-serif;">
+
+  <div style="border: 3pt solid #1B3E93; border-radius: 10pt; padding: 20pt 24pt; text-align: center; break-inside: avoid; display: flex; flex-direction: column; min-height: 9.4in; box-sizing: border-box;">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 12pt;">
+      <img src="uploads/Ross Elem Emb (2).png" alt="Ross Elementary Roadrunners logo" style="width: 60pt; height: 54pt; object-fit: contain;">
+      <div style="font-size: 26pt; font-weight: 800; color: #0E2841;">Our Choral Response Signal</div>
+    </div>
+    <div style="margin-top: 4pt; font-size: 12pt; color: #46536B;">One signal. Every voice. All together.</div>
+    <div style="display: flex; flex-direction: column; gap: 14pt; margin-top: 20pt; flex: 1; justify-content: center;">
+      <div style="display: flex; align-items: center; gap: 16pt; background: #EDF3FE; border-radius: 10pt; padding: 14pt 18pt; text-align: left;">
+        <div style="width: 44pt; height: 44pt; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 24pt; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+        <div><div style="font-size: 20pt; font-weight: 800; color: #1B3E93;">TEACHER ASKS</div><div style="font-size: 12pt; color: #0E2841;">Listen to the whole question. Hands stay down — everyone answers this one.</div></div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16pt; background: #EDF3FE; border-radius: 10pt; padding: 14pt 18pt; text-align: left;">
+        <div style="width: 44pt; height: 44pt; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 24pt; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+        <div><div style="font-size: 20pt; font-weight: 800; color: #1B3E93;">THINK</div><div style="font-size: 12pt; color: #0E2841;">Quiet think time. Get the answer ready in your head — lips closed.</div></div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16pt; background: #FFF6DE; border-radius: 10pt; padding: 14pt 18pt; text-align: left;">
+        <div style="width: 44pt; height: 44pt; border-radius: 50%; background: #FFC222; color: #0E2841; font-size: 24pt; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">3</div>
+        <div><div style="font-size: 20pt; font-weight: 800; color: #BE1E2D;">SIGNAL</div><div style="font-size: 12pt; color: #0E2841;">Watch for it: the teacher's hand drops — that's our cue.</div></div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 16pt; background: #EDF3FE; border-radius: 10pt; padding: 14pt 18pt; text-align: left;">
+        <div style="width: 44pt; height: 44pt; border-radius: 50%; background: #1B3E93; color: #FFFFFF; font-size: 24pt; font-weight: 800; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">4</div>
+        <div><div style="font-size: 20pt; font-weight: 800; color: #1B3E93;">EVERYBODY ANSWERS</div><div style="font-size: 12pt; color: #0E2841;">All voices together — strong and proud. Your voice matters every time.</div></div>
+      </div>
+    </div>
+    <div style="margin-top: 12pt; font-size: 9.5pt; color: #46536B;">Teacher note: think time before the signal is the access point — it lets every student, not just the fastest, arrive with an answer. Listen for who is rehearsing vs. mouthing along; that's your count.</div>
+  </div>
+
+  </div>
+</x-import>
+</x-dc>
+<style>
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+@media print {
+  *, *::before, *::after {
+    animation-delay: -99s !important; animation-duration: .001s !important;
+    animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+    animation-play-state: running !important; transition-duration: 0s !important;
+  }
+}
+</style>
+<script>
+addEventListener('load', () => {
+  (async () => {
+    try { await document.fonts.ready; } catch (e) {}
+    for (let i = 0; i < 100; i++) {
+      if (document.querySelector('doc-page')) break;
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    const imgs = Array.from(document.images).filter((i) => !i.complete);
+    await Promise.race([
+      Promise.allSettled(imgs.map((i) => i.decode())),
+      new Promise((r) => setTimeout(r, 8000)),
+    ]);
+    setTimeout(() => window.print(), 800);
+  })();
+});
+</script>
+</body>
+</html>
