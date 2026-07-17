@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Coach's Implementation Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; font-family: 'Figtree', 'Segoe UI', sans-serif; color: #0E2841; }
+  a { color: #1B3E93; } a:hover { color: #BE1E2D; }
+</style>
+</helmet>
+<x-import component-from-global-scope="doc-page" from="./doc-page.js" size="letter" orientation="portrait" margin="0.7in" hint-size="100%,1400px">
+  <div style="font-family: 'Figtree', 'Segoe UI', sans-serif;">
+
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 16pt; border-bottom: 3pt solid #1B3E93; padding-bottom: 10pt;">
+    <div>
+      <div style="font-size: 9pt; font-weight: 700; letter-spacing: 1.5pt; color: #BE1E2D;">K–2 ELA PROFESSIONAL LEARNING • QUARTER 1 • COACH'S IMPLEMENTATION GUIDE</div>
+      <h1 style="margin: 4pt 0 0 0; font-size: 22pt; font-weight: 800; color: #0E2841;">Running the Series: A Coach's Guide</h1>
+      <div style="margin-top: 2pt; font-size: 11pt; color: #46536B;">How the seven sessions, the between-session coaching, and the classroom tools work as one system — and what to do when they don't.</div>
+    </div>
+    <img src="assets/ross-logo.png" alt="Ross Elementary Roadrunners logo" style="width: 70pt; height: 64pt; object-fit: contain; flex-shrink: 0;">
+  </div>
+  <div style="display: flex; gap: 24pt; margin-top: 6pt; font-size: 10pt; color: #46536B;">
+    <div><strong style="color: #0E2841;">Series lead:</strong> LaShaudra Cox</div>
+    <div><strong style="color: #0E2841;">School:</strong> Ross Elementary</div>
+    <div><strong style="color: #0E2841;">Cadence:</strong> Biweekly, 60 min, inside K–2 ELA planning</div>
+  </div>
+
+  <h2 style="margin: 16pt 0 4pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">The Design in One Paragraph</h2>
+  <p style="margin: 0; font-size: 10.5pt; line-height: 1.55;">Every session teaches one practice, ends with a classroom commitment, and opens the next session with the evidence that commitment produced. The chain is deliberate: routines (S1) → annotated access points (S2) → visible, counted participation (S3) → scaffolds matched to evidence (S4) → sorted student work and reteach (S5) → peer feedback that names what worked (S6) → a data review that decides Quarter 2 (S7). Your job as coach is to protect the chain — the session content matters less than the evidence moving through it.</p>
+
+  <h2 style="margin: 14pt 0 4pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">Non-Negotiables</h2>
+  <ul style="margin: 0; padding-left: 16pt; font-size: 10.5pt; line-height: 1.55;">
+    <li><strong>Open with their evidence, every time.</strong> The first ten minutes belong to the exit tickets from last session. Skip this once and commitments become optional.</li>
+    <li><strong>Working time is sacred.</strong> Each session's largest block is teachers working in their own Wonders maps and student work — never let the presentation eat it.</li>
+    <li><strong>Counts, not vibes.</strong> Model the language relentlessly: 14/18, three moved piles, two still outside the count. Celebrate in the same units.</li>
+    <li><strong>ESL &amp; SPED partners are co-planners, not guests.</strong> Confirm coverage for S2/S4/S5 a week ahead; seat them inside grade teams.</li>
+    <li><strong>Same lens everywhere.</strong> The walkthrough checklist, the feedback frames, and the session content use identical language. If leadership walkthroughs drift, realign them before the next session.</li>
+  </ul>
+
+  <div style="break-before: page;">
+    <h2 style="margin: 0 0 6pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">Between Sessions — Where Implementation Lives</h2>
+  </div>
+  <table style="width: 100%; border-collapse: collapse; font-size: 10pt;">
+    <thead>
+      <tr>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 22%;">Window</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt;">Coach moves</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S1 → S2</strong><br><span style="font-size: 8.5pt; color: #46536B;">weeks 1–3</span></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Visit every K–2 room once; look only for the committed routine being taught (model–practice–reinforce). Leave one strength-based note per teacher. Deliver classroom kits (posters, signal cards, partner cards).</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S2 → S3</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Check that annotated lessons get taught — offer to co-teach or model one. Collect a photo of one strong annotation per grade (with permission) for the S3 opener.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S3 → S4</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Do your own participation counts in walkthroughs using the look-for checklist; the numbers seed the S4 baseline comparison. Nudge teachers who haven't counted yet — ten seconds, one activity.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S4 → S5</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Watch one scaffolded lesson per grade. Remind teams to keep the FULL class set from the scaffolded lesson — the S5 sort needs every paper, not the best ones.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S5 → S6</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Broker the peer observations: build the coverage schedule, pair observers across grades where possible, hand each pair the observation form. Video is a legitimate fallback.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; vertical-align: top;"><strong>After S6 → S7</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt; line-height: 1.55;">Pull the quarter data (walkthrough counts, screening, RTI² referrals) so teams don't spend S7 hunting numbers. Pre-fill the August baselines on the team data summaries. Fill in certificates.</td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="margin: 14pt 0 4pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">Troubleshooting</h2>
+  <table style="width: 100%; border-collapse: collapse; font-size: 10pt;">
+    <thead>
+      <tr>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 38%;">If you see…</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt;">Try…</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Teachers arrive without evidence (no count, no work set)</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Don't scold — pair them with a teammate who brought theirs for the debrief, then make a specific plan and date with them before they leave. Track it on the sign-in sheet's evidence column.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Annotations that say "differentiate" or "support"</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Push to the frame: which move (visual / discourse / model / prior knowledge), which students, what will you make or say? The worked /ee/ example is the bar.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Counts stuck at the baseline for a team</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Observe the counted activity yourself — usually the structure isn't visible (no boards up, volunteers answering). Reteach the every-voice routine with the teacher, then recount.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">The sort produces one big "low" pile</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">The task, not the students: check the lesson was taught at grade level with the planned access points. Re-sort by named need — the pile always splits.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Peer feedback that's all praise, no frame</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Rehearse it live in S6 and accept only framed feedback on the exit ticket: a named move + a counted outcome. "Great lesson!" gets a warm redo.</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Leadership walkthroughs looking for compliance</td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Bring the walkthrough look-for checklist to admin team; re-anchor on the kickoff deck's four asks. One misaligned walkthrough undoes a session of trust.</td></tr>
+    </tbody>
+  </table>
+
+  <div style="break-before: page;">
+    <h2 style="margin: 0 0 6pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">The Toolbox Map — What to Hand Out When</h2>
+  </div>
+  <table style="width: 100%; border-collapse: collapse; font-size: 10pt;">
+    <thead>
+      <tr>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt; width: 24%;">Moment</th>
+        <th style="text-align: left; background: #1B3E93; color: #FFFFFF; padding: 5pt 7pt;">Resource</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S1 (inservice)</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Classroom kits: Whiteboard &amp; Choral posters, Hand Signal Cards, Turn &amp; Talk Partner Cards, Sentence Starter Cards, Sound-Spelling Desk Strips</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S3</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Participation Tally Sheets; Dictation Practice Sheets; Tricky Word Flashcards</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S4</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Anchor Chart Examples; Scaffold Fade Trackers</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S5</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Reteach Planning Templates; Small-Group Lesson Plan Cards; Rotation Chart + station card sets (Word Work, Writing, Listening, Fluency) + Partner Reading Mats</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S5 → S6 window</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Peer Observation Forms, with the coverage schedule</td></tr>
+      <tr><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;"><strong>S7</strong></td><td style="border: 0.75pt solid #B9C4DB; padding: 6pt 7pt;">Team Data Summary One-Pagers (baselines pre-filled); Q2 Series Outline; Certificates of Completion</td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="margin: 14pt 0 4pt 0; font-size: 14pt; font-weight: 800; color: #1B3E93;">Reporting Up</h2>
+  <ul style="margin: 0; padding-left: 16pt; font-size: 10.5pt; line-height: 1.55;">
+    <li><strong>After S1:</strong> send leadership the kickoff deck and the four asks (protect the block, schedule partners, align walkthroughs, use the frame).</li>
+    <li><strong>Monthly:</strong> one paragraph — participation counts vs. baseline, one bright spot in frame language, one support needed.</li>
+    <li><strong>After S7:</strong> the team data summaries ARE the quarter report. Attach the Q2 outline with the focus the teams chose.</li>
+  </ul>
+
+  <div style="background: #FFF6DE; border-radius: 6pt; padding: 10pt 12pt; margin-top: 14pt; break-inside: avoid; font-size: 10pt; line-height: 1.55;">
+    <strong style="color: #BE1E2D;">The coach's through-line:</strong> you are not running seven meetings — you are keeping one promise: that what teachers plan together is what they teach, what everyone looks for, what feedback names, and what the data measures. Every coaching decision should make that promise easier to keep.
+  </div>
+
+  </div>
+</x-import>
+</x-dc>
+<style>
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+@media print {
+  *, *::before, *::after {
+    animation-delay: -99s !important; animation-duration: .001s !important;
+    animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+    animation-play-state: running !important; transition-duration: 0s !important;
+  }
+}
+</style>
+<script>
+addEventListener('load', () => {
+  (async () => {
+    try { await document.fonts.ready; } catch (e) {}
+    for (let i = 0; i < 100; i++) {
+      if (document.querySelector('doc-page')) break;
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    const imgs = Array.from(document.images).filter((i) => !i.complete);
+    await Promise.race([
+      Promise.allSettled(imgs.map((i) => i.decode())),
+      new Promise((r) => setTimeout(r, 8000)),
+    ]);
+    setTimeout(() => window.print(), 800);
+  })();
+});
+</script>
+</body>
+</html>

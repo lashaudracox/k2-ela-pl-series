@@ -1,0 +1,19 @@
+GITHUB UPDATE — what changed and how to upload
+
+WHAT'S IN THIS FOLDER
+• index.html — the UPDATED Series Hub (replaces the repo's index.html). New since your
+  last upload: "Q1 Overview →" link on the leadership card, "Agenda →" link on every
+  session card, and "Session Agendas (S1–S7)" + "Coach's Implementation Guide" in
+  Facilitator Tools.
+• Q1 Series Overview.dc.html (+ -print copy) — NEW one-page series overview.
+• Session Agendas.dc.html (+ -print copy) — NEW, one agenda page per session with
+  per-session anchors (#s1–#s7) that the hub links to.
+• Coach's Implementation Guide-print.dc.html — print copy that was missing from the repo.
+• assets/ — the brand images, including template-image1.jpg (I noticed it was deleted
+  from the repo's assets folder; the session decks' title/closing slides need it).
+
+HOW TO UPLOAD
+1. Repo → "Add file" → "Upload files" → drag EVERYTHING in this folder (including the
+   assets subfolder contents into assets/).
+2. When GitHub asks about index.html already existing, commit anyway — that's the update.
+3. GitHub Pages redeploys automatically in ~1 minute. Same URL as before.
